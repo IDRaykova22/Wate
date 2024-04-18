@@ -9,6 +9,7 @@ export function lightBackground(scene) {
     body.style.backgroundRepeat = "no-repeat";
     body.style.backgroundSize = "cover";
 }
+
 export function darkBackground(scene) {
     body.style.backgroundImage =  `url('${darkTheme}')`;
     body.style.backgroundRepeat = "no-repeat";
